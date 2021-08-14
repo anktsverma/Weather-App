@@ -6,7 +6,7 @@ const Card = () => {
     const [weather, setWeather] = useState('');
     const [city, setCity] = useState('');
     const [pincode,setPincode]=useState('');
-    const API_key='c6616ab161a88215198908fc859679fe';
+    const API_key='';
   
     
 
