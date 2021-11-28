@@ -8,7 +8,7 @@ const Card = () => {
     const [pincode,setPincode]=useState('');
     const [loading,setLoading]=useState(false)
     const [validPin,setValidPin]=useState(false)
-    const API_key='';
+    const API_key='c6616ab161a88215198908fc859679fe';
   
 
 
