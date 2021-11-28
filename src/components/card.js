@@ -43,7 +43,7 @@ const Card = () => {
                    }}
                 />
              
-                {validPin? <button  disabled={loading?"disabled":""}>{loading?"Loading...":"Search"}</button> :<button disabled style={{backgroundColor:'#ddd'}}>Search</button>}
+                {validPin? <button  disabled={loading?"disabled":""}>{loading?"Loading...":"Search"}</button> :<button disabled style={{backgroundColor:'#ddd',color:'#333'}}>Search</button>}
                  {loading ?
               <div style={{display:'flex',justifyContent:'center',alignItems:'center',marginTop:'20px'}} >
               <Loader
